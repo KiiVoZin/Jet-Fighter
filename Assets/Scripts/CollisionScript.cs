@@ -43,7 +43,7 @@ public class CollisionScript : MonoBehaviour
             if (rightX >= leftXTemp && rightXTemp >= leftX && topY >= bottomYTemp && topYTemp >= bottomY) return obj;
         }
 
-        return mainObject;
+        return null;
     }
 
     public static GameObject CollideWithIntersect(GameObject mainObject, Vector2 move)
@@ -76,7 +76,7 @@ public class CollisionScript : MonoBehaviour
             if (rightX >= leftXTemp && rightXTemp >= leftX && topY >= bottomYTemp && topYTemp >= bottomY) return obj;
         }
 
-        Vector2 positionNext = position + move;
+        Vector2 positionNext = position - move;
 
         foreach (var obj in objects)
         {
@@ -106,7 +106,7 @@ public class CollisionScript : MonoBehaviour
                 if ((u_a >= 0 && u_a <= 1 && u_b >= 0 && u_b <= 1)) return obj;
             }
         }
-        return mainObject;
+        return null;
     }
 
 }

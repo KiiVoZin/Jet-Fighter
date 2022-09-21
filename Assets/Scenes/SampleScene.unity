@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 172912466}
   - component: {fileID: 172912465}
   m_Layer: 5
-  m_Name: Player 1 Score
+  m_Name: Player1 Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,6 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 700690737}
   - component: {fileID: 700690736}
+  - component: {fileID: 700690738}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -397,6 +398,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &700690738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700690735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e91d743eaa52f04e8fc19c57ee83734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1007277652
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +422,7 @@ GameObject:
   - component: {fileID: 1007277655}
   - component: {fileID: 1007277654}
   m_Layer: 5
-  m_Name: Player 2 Score
+  m_Name: Player2 Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -772,7 +785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7412850253931015292, guid: acc2ffb5d007d8044929c1789c9dd9ac, type: 3}
       propertyPath: m_Name
-      value: Player 2
+      value: Player2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc2ffb5d007d8044929c1789c9dd9ac, type: 3}
@@ -846,7 +859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7412850253931015292, guid: acc2ffb5d007d8044929c1789c9dd9ac, type: 3}
       propertyPath: m_Name
-      value: Player 1
+      value: Player1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc2ffb5d007d8044929c1789c9dd9ac, type: 3}
