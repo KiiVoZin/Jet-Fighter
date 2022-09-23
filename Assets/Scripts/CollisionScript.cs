@@ -76,7 +76,7 @@ public class CollisionScript : MonoBehaviour
             if (rightX >= leftXTemp && rightXTemp >= leftX && topY >= bottomYTemp && topYTemp >= bottomY) return obj;
         }
 
-        Vector2 positionNext = position - move;
+        Vector2 positionNext = move - position;
 
         foreach (var obj in objects)
         {

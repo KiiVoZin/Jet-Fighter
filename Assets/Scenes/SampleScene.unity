@@ -378,7 +378,7 @@ MonoBehaviour:
   MovementSpeed: 2
   RotationSpeed: 100
   Bullet: {fileID: 2810968618836615677, guid: 4fb26ab02d829f345bc461a6070e3fb4, type: 3}
-  BulletSpeed: 5
+  BulletSpeed: 1000
   BulletLifetime: 3
   BulletFireCooldown: 1
   p1text: {fileID: 172912465}
